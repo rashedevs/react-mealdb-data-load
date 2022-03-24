@@ -7,3 +7,11 @@
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
 }
+.cart-container{
+    width: 100%;
+    padding: 10px;
+    margin: 4px 10px;
+    background-color: rgb(240, 174, 52);
+    border: 1px solid rgb(240, 174, 52);
+    border-radius: 5px;
+}
