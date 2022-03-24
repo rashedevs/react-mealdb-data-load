@@ -9,9 +9,9 @@ const Item = (props) => {
         <div className='item'>
             <img src={strMealThumb} alt="" />
             <div className="item-info">
-                <h3>Item: {strMeal}</h3>
-                <h4>Category: {strCategory}</h4>
-                <h5>Type: {strArea}</h5>
+                <h4>Item: {strMeal}</h4>
+                <h5>Category: {strCategory}</h5>
+                <h6>Type: {strArea}</h6>
             </div>
             <button className='item-btn'><p>Add to cart</p> <FontAwesomeIcon icon={faShoppingCart} /></button>
         </div>
