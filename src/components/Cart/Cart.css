@@ -1,5 +1,16 @@
 .cart{
+    display: flex;
     text-align: center;
-    position: sticky;
-    top: 0;
+    position: relative;
+
+}
+.cart img{
+    margin: 10px;
+    width: 25%;
+    height: 90px;
+    border-radius: 20px;
+}
+.cart h4{
+    color: white;
+    padding: 20px;
 }

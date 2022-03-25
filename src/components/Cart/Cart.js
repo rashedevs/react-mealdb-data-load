@@ -2,18 +2,11 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    const { cart } = props
-    let name;
-    for (const item of cart) {
-        if (name) {
-            name = name + ' / ' + item.strMeal
-        }
-        else { name = item.strMeal }
-    }
+    const { strMeal, strMealThumb } = props.food
     return (
         <div className='cart'>
-            <h3>Order Summery</h3>
-            <h4>Added Items: {name}</h4>
+            <img src={strMealThumb} alt="" />
+            <h4> {strMeal}</h4>
         </div>
     );
 };
