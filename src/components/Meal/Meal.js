@@ -25,8 +25,9 @@ const Meal = () => {
                 }
             </div>
             <div className="cart-container">
-                <h3>Order Summery</h3>
+
                 <div className="cart-items">
+                    <h3>Order Summery</h3>
                     {
                         cart.map(food => <Cart key={food.idMeal} food={food}></Cart>)
                     }
